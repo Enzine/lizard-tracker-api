@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  breakfast_crickets: MyString
+  breakfast_veggies: false
+  breakfast_comments: MyText
+  dinner_crikets: MyString
+  dinner_veggies: false
+  dinner_comments: MyText
+  general_poop: false
+  general_bath: false
+  general_weight: 1.5
+  general_length: 1.5
+  general_comments: MyText
+  general_activity: 1
+
+two:
+  breakfast_crickets: MyString
+  breakfast_veggies: false
+  breakfast_comments: MyText
+  dinner_crikets: MyString
+  dinner_veggies: false
+  dinner_comments: MyText
+  general_poop: false
+  general_bath: false
+  general_weight: 1.5
+  general_length: 1.5
+  general_comments: MyText
+  general_activity: 1
