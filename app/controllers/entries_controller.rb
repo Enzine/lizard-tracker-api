@@ -46,6 +46,6 @@ class EntriesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def entry_params
-      params.require(:entry).permit(:breakfast_crickets, :breakfast_veggies, :breakfast_comments, :dinner_crickets, :dinner_veggies, :dinner_comments, :general_poop, :general_bath, :general_weight, :general_length, :general_comments, :general_activity)
+      params.require(:entry).permit(:breakfast_crickets, :breakfast_veggies, :breakfast_comments, :dinner_crickets, :dinner_veggies, :dinner_comments, :general_poop, :general_bath, :general_weight, :general_length, :general_comments, :general_activity, :general_calcium)
     end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170827152855) do
+ActiveRecord::Schema.define(version: 20170829205241) do
 
   create_table "entries", force: :cascade do |t|
     t.string   "breakfast_crickets"
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20170827152855) do
     t.float    "general_length"
     t.text     "general_comments"
     t.integer  "general_activity"
+    t.boolean  "general_calcium"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
   end
-
 end
